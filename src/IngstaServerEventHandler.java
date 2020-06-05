@@ -408,7 +408,6 @@ public class IngstaServerEventHandler implements CMAppEventHandler {
 		return;
 	}
 
-	
 	private void processMultiServerEvent(CMEvent cme)
 	{
 		CMConfigurationInfo confInfo = m_serverStub.getCMInfo().getConfigurationInfo();
@@ -469,6 +468,7 @@ public class IngstaServerEventHandler implements CMAppEventHandler {
 
 		return;
 	}
+	
 	private void processSNSEvent(CMEvent cme)
 	{
 		CMSNSEvent se = (CMSNSEvent) cme;
